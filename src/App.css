@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.SearchEngineComparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.SearchEngine {
+  width: 30%;
+}
+
+.SearchEngineHeader {
+  font-size: 36px;
+}
+
+.SearchResult {
+  height: 50vh;
+  overflow: scroll;
+}
